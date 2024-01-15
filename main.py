@@ -29,6 +29,12 @@ def footwear_page():
     context = {'title': 'Интернет-магазин: Обувь'}
     return render_template('footwear.html', **context)
 
+@app.route('/jacket/')
+def jacket_page():
+    context = {'title': 'Интернет-магазин: Куртка'}
+    return render_template('jacket.html', **context)
+
+
 if __name__=='__main__':
     app.run()
     # Условие __name__ == "__main__" гарантирует,
