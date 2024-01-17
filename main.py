@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import render_template
-
 # Объект класса Flask создается
 app = Flask(__name__)
 # Во  строке app= создается объект Flask.
